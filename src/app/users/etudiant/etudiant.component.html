@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div class="container">
+  <div class="button-wrapper" id="card">
+    <a  class="buttonP" (click)="rech()" >
+
+      Reload Card    </a>
+  </div>
+ 
+ 
+  <div class="button-wrapper" id="balance">
+    
+    <a  class="buttonB" (click)="checkBalance()">
+      check balance
+    </a>
+  </div>
+  <div class="places-available">
+    <img src="../../../assets/img/restaurant.png" alt="Image de places disponibles">
+    <h4 style="color: black;">  le nombre  de place disponible   :  {{nombredeplaces}} </h4>
+    </div>
+  
+ 
+</div>
+
+</body>
+</html>
